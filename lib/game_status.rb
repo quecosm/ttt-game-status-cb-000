@@ -47,11 +47,11 @@ end
   #  diagonal_ascending = board[wi8]  
   
 def won?(board)
-  
-if board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-  return false
 
-elsif top_row.all? {|i| i == "X"}
+board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+
+if top_row.all? {|i| i == "X"}
 
 else
   puts "in progress"
