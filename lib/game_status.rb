@@ -51,7 +51,7 @@ def won?(board)
 if board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   return false
 
-elsif top_row.all? do {|i| i == "X"}
+elsif top_row.all? {|i| i == "X"}
 end
 
 else
