@@ -53,6 +53,8 @@ board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 if board[0]=="X" && board [1]=="X" && board[2]=="X"
   return WIN_COMBINATIONS[0]
+elsif board[3]=="X" && board [4]=="X" && board[5]=="X"
+  return WIN_COMBINATIONS[1]
 else
   puts "in progress"
 end
