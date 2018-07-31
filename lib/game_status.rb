@@ -52,7 +52,8 @@ board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
 if top_row.all? {|i| i == "X"}
-
+  return top_row
+  
 else
   puts "in progress"
 end
