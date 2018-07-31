@@ -51,9 +51,9 @@ def won?(board)
 board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
-if top_row.all? {|i| i == "X"}
+if board[0]=="X" && board [1]=="X" && board[2]=="X"
   return top_row
-  
+
 else
   puts "in progress"
 end
