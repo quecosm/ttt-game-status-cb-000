@@ -28,7 +28,7 @@ def draw (board)
   won?(board)==false && full?(board)==true 
 end
 
-   wi1 = WIN_COMBINATIONS[0]
+  #  wi1 = WIN_COMBINATIONS[0]
   #  wi2 = WIN_COMBINATIONS[1]
   #  wi3 = WIN_COMBINATIONS[2]
   #  wi4 = WIN_COMBINATIONS[3]
@@ -37,7 +37,7 @@ end
   #  wi7 = WIN_COMBINATIONS[6]
   #  wi8 = WIN_COMBINATIONS[7]
     
-   top_row = board[wi1]
+  #  top_row = board[wi1]
   #  middle_row = board[wi2]
   #  bottom_row = board[wi3]
   #  left_column = board[wi4]
@@ -52,12 +52,10 @@ board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
 if board[0]=="X" && board [1]=="X" && board[2]=="X"
-  return top_row
-
+  return WIN_COMBINATIONS[0]
 else
   puts "in progress"
 end
-
 end
 
 
