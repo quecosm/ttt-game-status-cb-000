@@ -27,9 +27,7 @@ end
 def draw (board)
   won?(board)==false && full?(board)==true 
 end
-  
-def won?(board)
-  
+
    wi1 = WIN_COMBINATIONS[0]
   #  wi2 = WIN_COMBINATIONS[1]
   #  wi3 = WIN_COMBINATIONS[2]
@@ -46,7 +44,9 @@ def won?(board)
   #  middle_column = board[wi5]
   #  right_column = board[wi6]
   #  diagonal_descending = board[wi7]
-  #  diagonal_ascending = board[wi8]
+  #  diagonal_ascending = board[wi8]  
+  
+def won?(board)
   
 if board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   return false
