@@ -32,5 +32,21 @@ board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   
       
 end
-
-
+    
+    wi1 = WIN_COMBINATIONS[0]
+    wi2 = WIN_COMBINATIONS[1]
+    wi3 = WIN_COMBINATIONS[2]
+    wi4 = WIN_COMBINATIONS[3]
+    wi5 = WIN_COMBINATIONS[4]
+    wi6 = WIN_COMBINATIONS[5]
+    wi7 = WIN_COMBINATIONS[6]
+    wi8 = WIN_COMBINATIONS[7]
+    
+    top_row = board[wi1]
+    middle_row = board[wi2]
+    bottom_row = board[wi3]
+    left_column = board[wi4]
+    middle_column = board[wi5]
+    right_column = board[wi6]
+    diagonal_descending = board[wi7]
+    diagonal_ascending = board[wi8]
