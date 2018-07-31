@@ -52,12 +52,10 @@ if board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   return false
 
 elsif top_row.all? {|i| i == "X"}
-end
 
 else
   puts "in progress"
 end
-
 
 end
 
