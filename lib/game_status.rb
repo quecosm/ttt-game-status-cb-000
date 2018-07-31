@@ -26,6 +26,10 @@ def draw (board)
 end
   
 def won? (board)
+  
+  board.all? do|i| i != " "
+      end
+      
     wi1 = WIN_COMBINATIONS[0]
     wi2 = WIN_COMBINATIONS[1]
     wi3 = WIN_COMBINATIONS[2]
@@ -44,8 +48,7 @@ def won? (board)
     diagonal_descending = board[wi7]
     diagonal_ascending = board[wi8]
     
-  board.all? do|i| i != " "
-      end
+  
       
 end
 
