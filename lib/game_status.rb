@@ -46,7 +46,12 @@ end
   
 def won?(board)
 
-board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+if board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  return false
+else
+  puts "in progress"
+end
+
 
 end
 
