@@ -48,6 +48,7 @@ def won?(board)
 
 if board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
   return false
+elsif board.include
 else
   puts "in progress"
 end
