@@ -27,8 +27,7 @@ end
   
 def won? (board)
   
-  board.all? do|i| i != " "
-      end
+board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
       
     wi1 = WIN_COMBINATIONS[0]
     wi2 = WIN_COMBINATIONS[1]
@@ -47,8 +46,6 @@ def won? (board)
     right_column = board[wi6]
     diagonal_descending = board[wi7]
     diagonal_ascending = board[wi8]
-    
-  
       
 end
 
