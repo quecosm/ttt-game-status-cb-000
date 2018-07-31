@@ -51,13 +51,13 @@ def won?(board)
 board != [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 
-if board[0]=="X" && board[1]=="X" && board[2]=="X"
+if (board[0]=="X" && board[1]=="X" && board[2]=="X") || (board[0]=="O" && board[1]=="O" && board[2]=="O")
   return WIN_COMBINATIONS[0]
 elsif board[3]=="X" && board[4]=="X" && board[5]=="X"
   return WIN_COMBINATIONS[1]
-elsif board[6]=="X" && board[7]=="X" && board[8]=="X"
+elsif (board[6]=="X" && board[7]=="X" && board[8]=="X") || (board[6]=="O" && board[7]=="O" && board[8]=="O")
   return WIN_COMBINATIONS[2]
-elsif board[0]=="X" && board[3]=="X" && board[6]=="X"
+elsif (board[0]=="X" && board[3]=="X" && board[6]=="X") || 
   return WIN_COMBINATIONS[3]
 else
   puts "in progress"
