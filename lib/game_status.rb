@@ -57,6 +57,8 @@ elsif board[3]=="X" && board[4]=="X" && board[5]=="X"
   return WIN_COMBINATIONS[1]
 elsif board[6]=="X" && board[7]=="X" && board[8]=="X"
   return WIN_COMBINATIONS[2]
+elsif board[0]=="X" && board [3]=="X" && board[6]=="X"
+  return WIN_COMBINATIONS[3]
 else
   puts "in progress"
 end
